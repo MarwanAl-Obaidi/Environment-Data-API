@@ -1,0 +1,30 @@
+{
+    "environment": "desert",
+    "temperature": {
+        "average_day": 40,
+        "average_night": 25,
+        "unit": "Celsius"
+    },
+    "humidity": {
+        "average": 20,
+        "unit": "percent"
+    },
+    "precipitation": {
+        "average_annual": 250,
+        "unit": "mm"
+    },
+    "flora": [
+        "cacti",
+        "shrubs",
+        "succulents"
+    ],
+    "fauna": [
+        "camels",
+        "lizards",
+        "scorpions"
+    ],
+    "geography": {
+        "terrain": "sandy dunes",
+        "elevation": "varied"
+    }
+}

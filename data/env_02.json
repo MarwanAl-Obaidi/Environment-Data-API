@@ -1,0 +1,30 @@
+{
+    "environment": "rainforest",
+    "temperature": {
+        "average_day": 28,
+        "average_night": 22,
+        "unit": "Celsius"
+    },
+    "humidity": {
+        "average": 85,
+        "unit": "percent"
+    },
+    "precipitation": {
+        "average_annual": 2500,
+        "unit": "mm"
+    },
+    "flora": [
+        "tall trees",
+        "ferns",
+        "vines"
+    ],
+    "fauna": [
+        "jaguars",
+        "monkeys",
+        "toucans"
+    ],
+    "geography": {
+        "terrain": "dense jungle",
+        "elevation": "varied"
+    }
+}

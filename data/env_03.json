@@ -1,0 +1,30 @@
+{
+    "environment": "tundra",
+    "temperature": {
+        "average_day": -5,
+        "average_night": -15,
+        "unit": "Celsius"
+    },
+    "humidity": {
+        "average": 50,
+        "unit": "percent"
+    },
+    "precipitation": {
+        "average_annual": 300,
+        "unit": "mm"
+    },
+    "flora": [
+        "mosses",
+        "lichens",
+        "grasses"
+    ],
+    "fauna": [
+        "arctic foxes",
+        "snowy owls",
+        "polar bears"
+    ],
+    "geography": {
+        "terrain": "flat plains",
+        "elevation": "low to moderate"
+    }
+}

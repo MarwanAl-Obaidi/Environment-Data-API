@@ -1,13 +1,23 @@
-const http = require('http');
+const express = require('express');
+const app = express();
+const port = 3001;
 
-const port = 3000;
+let desert = require('./data/env_01.json');
+let rainforest = require('./data/env_02.json');
+let tundra = require('./data/env_03.json');
 
-const server = http.createServer((req, res) => {
-    res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/plain');
-    res.end('Hello Node.js');
+app.get('/1', (req, res) => {
+    res.send(desert);
 });
 
-server.listen(port, () => {
-    console.log('Server is running at port ' + port);
+app.get('/2', (req, res) => {
+    res.send(rainforest);
+});
+
+app.get('/3', (req, res) => {
+    res.send(tundra);
+});
+
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}.`);
 });
